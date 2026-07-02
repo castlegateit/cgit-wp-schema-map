@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be7025c5713f6927eaf5aa6cbaff9603",
+    "content-hash": "8e6c43f8b45380f6e10d0c24b43a0d4b",
     "packages": [
         {
             "name": "spatie/schema-org",

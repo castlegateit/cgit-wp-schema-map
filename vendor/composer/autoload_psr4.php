@@ -6,6 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Spatie\\SchemaOrg\\' => array($vendorDir . '/spatie/schema-org/src'),
     'Castlegate\\SchemaMap\\' => array($baseDir . '/classes'),
 );

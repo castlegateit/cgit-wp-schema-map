@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Castlegate\SchemaMap\Schema\Product;
 
 use Castlegate\SchemaMap\AbstractSchema;
-use Spatie\SchemaOrg\Schema;
+use Castlegate\SchemaMap\Vendor\Spatie\SchemaOrg\Schema;
 
 /**
  * Represents a Schema.org Product and acts as the base class for all

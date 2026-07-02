@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Castlegate\SchemaMap\Schema\Product;
 
-use Spatie\SchemaOrg\Schema;
+use Castlegate\SchemaMap\Vendor\Spatie\SchemaOrg\Schema;
 
 /**
  * Represents a Schema.org Vehicle, extending the Product base class to mirror

@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
         'name' => 'castlegate/cgit-wp-schema-map',
-        'pretty_version' => '1.0.0+no-version-set',
+        'pretty_version' => '1.0.0',
         'version' => '1.0.0.0',
         'reference' => null,
         'type' => 'library',
@@ -11,7 +11,7 @@
     ),
     'versions' => array(
         'castlegate/cgit-wp-schema-map' => array(
-            'pretty_version' => '1.0.0+no-version-set',
+            'pretty_version' => '1.0.0',
             'version' => '1.0.0.0',
             'reference' => null,
             'type' => 'library',

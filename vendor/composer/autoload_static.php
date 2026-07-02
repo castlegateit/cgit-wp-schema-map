@@ -4,13 +4,9 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitbe7025c5713f6927eaf5aa6cbaff9603
+class ComposerStaticInita276c5e4a0ba4e0ba7e0207ac594951d
 {
     public static $prefixLengthsPsr4 = array (
-        'S' =>
-        array (
-            'Spatie\\SchemaOrg\\' => 17,
-        ),
         'C' =>
         array (
             'Castlegate\\SchemaMap\\' => 21,
@@ -18,10 +14,6 @@ class ComposerStaticInitbe7025c5713f6927eaf5aa6cbaff9603
     );
 
     public static $prefixDirsPsr4 = array (
-        'Spatie\\SchemaOrg\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/spatie/schema-org/src',
-        ),
         'Castlegate\\SchemaMap\\' =>
         array (
             0 => __DIR__ . '/../..' . '/classes',
@@ -35,9 +27,9 @@ class ComposerStaticInitbe7025c5713f6927eaf5aa6cbaff9603
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitbe7025c5713f6927eaf5aa6cbaff9603::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitbe7025c5713f6927eaf5aa6cbaff9603::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitbe7025c5713f6927eaf5aa6cbaff9603::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita276c5e4a0ba4e0ba7e0207ac594951d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita276c5e4a0ba4e0ba7e0207ac594951d::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInita276c5e4a0ba4e0ba7e0207ac594951d::$classMap;
 
         }, null, ClassLoader::class);
     }

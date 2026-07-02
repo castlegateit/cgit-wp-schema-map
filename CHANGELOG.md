@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.1.0 (2026-07-02)
+
+## Changed
+
+*   Isolated the `spatie/schema-org` dependency under a prefixed namespace (`Castlegate\SchemaMap\Vendor\...`) using Strauss, so this plugin's copy cannot collide with another plugin bundling a different version of the same package. The build now downloads `strauss.phar` and rewrites the prefixed dependency automatically on `composer install`/`update`.
+
+## Fixed
+
+*   Declared an explicit `version` in `composer.json` to stop Composer defaulting to a guessed version on install.
+
 ## 1.0.0 (2026-07-01)
 
 ## Added

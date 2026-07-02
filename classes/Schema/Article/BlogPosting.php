@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Castlegate\SchemaMap\Schema\Article;
 
-use Spatie\SchemaOrg\Schema;
+use Castlegate\SchemaMap\Vendor\Spatie\SchemaOrg\Schema;
 
 /**
  * Schema.org BlogPosting

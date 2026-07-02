@@ -4,7 +4,7 @@
  * Plugin Name:  Castlegate IT WP Schema Map
  * Plugin URI:   https://github.com/castlegateit/cgit-wp-schema-map
  * Description:  Maps existing site content to Schema.org structured data output.
- * Version:      1.0.0
+ * Version:      1.1.0
  * Requires PHP: 8.2
  * Author:       Castlegate IT
  * Author URI:   https://www.castlegateit.co.uk/
@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
 }
 
 /** Plugin version string, mirrored in the file header above. */
-define('CGIT_WP_SCHEMA_MAP_VERSION', '1.0.0');
+define('CGIT_WP_SCHEMA_MAP_VERSION', '1.1.0');
 
 /** Absolute path to the main plugin file, used for activation hooks and asset URLs. */
 define('CGIT_WP_SCHEMA_MAP_PLUGIN_FILE', __FILE__);

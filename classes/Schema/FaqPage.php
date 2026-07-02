@@ -6,7 +6,7 @@ namespace Castlegate\SchemaMap\Schema;
 
 use Castlegate\SchemaMap\AbstractSchema;
 use Castlegate\SchemaMap\MergeableSchema;
-use Spatie\SchemaOrg\Schema;
+use Castlegate\SchemaMap\Vendor\Spatie\SchemaOrg\Schema;
 
 /**
  * Schema.org FAQPage wrapper.
